@@ -1,0 +1,49 @@
+{
+    "title": "Computer Basics",
+    "questions": [
+        {
+            "questionText": "Which component is considered the 'brain' of the computer?",
+            "choices": ["GPU", "CPU", "RAM"],
+            "answerIndex": 1
+        },
+        {
+            "questionText": "Which of these is an operating system?",
+            "choices": ["Linux", "USB", "HDMI", "Chrome"],
+            "answerIndex": 0
+        },
+        {
+            "questionText": "Which storage type is typically fastest for general use?",
+            "choices": ["SSD", "Tape", "DVD", "HDD"],
+            "answerIndex": 0
+        },
+        {
+            "questionText": "What does 'URL' stand for?",
+            "choices": [
+                "Uniform Resource Locator",
+                "Universal Routing Link",
+                "User Retrieval Location"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "questionText": "Which of the following is an example of input hardware?",
+            "choices": ["Printer", "Keyboard", "Speaker", "Monitor"],
+            "answerIndex": 1
+        },
+        {
+            "questionText": "In networking, what does 'IP' most commonly stand for?",
+            "choices": [
+                "Internet Protocol",
+                "Indexed Path",
+                "Interface Port",
+                "Internal Process"
+            ],
+            "answerIndex": 0
+        },
+        {
+            "questionText": "Which company created the original Macintosh computer?",
+            "choices": ["IBM", "Commodore", "Apple", "Atari", "Microsoft"],
+            "answerIndex": 2
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+@page
+@using A2_QuizAppImproved.Models
+@model ResultsModel
+
+@using Microsoft.Extensions.ObjectPool
+@using Microsoft.Win32.SafeHandles
+
+@if (Model.OkData)
+{
+<body>
+    <h1>Quiz Name: @Model.UserQuiz.Title</h1>
+    @{
+                int total = 0;
+                int totalQuestions = Model.UserQuiz.Questions.Count;
+
+                for (int i = 0; i < totalQuestions; i++)
+                {
+                    var question = Model.UserQuiz.Questions[i];
+                    var answer = Model.UserAnswers[i];
+                    var correctAnswer = question.Choices[question.AnswerIndex];
+                    if (answer == correctAnswer)
+                    {
+                        total++;
+                    }
+                    <h3>@(i+1): @question.QuestionText</h3><br />
+                    <h5>Your Answer: @answer</h5>
+                    <h5>Correct Answer: @correctAnswer</h5><br />
+                }
+                <h2>Your Score: @total / @totalQuestions</h2>
+            }
+</body>
+}

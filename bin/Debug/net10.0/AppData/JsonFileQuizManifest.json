@@ -1,0 +1,17 @@
+[
+    {
+        "id": "canadiana",
+        "displayName": "Canadiana",
+        "fileName": "JsonQuizFiles/Canadiana.json"
+    },
+    {
+        "id": "number-systems",
+        "displayName": "Number Systems",
+        "fileName": "JsonQuizFiles/NumberSystems.json"
+    },
+    {
+        "id": "world-geography",
+        "displayName": "World Geography",
+        "fileName": "JsonQuizFiles/WorldGeography.json"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "canadiana",
+        "displayName": "Canadiana",
+        "url": "https://smonknbcc.github.io/quizstore/quizzes/Canadiana.json"
+    },
+    {
+        "id": "number-systems",
+        "displayName": "Number Systems",
+        "url": "https://smonknbcc.github.io/quizstore/quizzes/NumberSystems.json"
+    },
+    {
+        "id": "world-geography",
+        "displayName": "World Geography",
+        "url": "https://smonknbcc.github.io/quizstore/quizzes/WorldGeography.json"
+    }
+]

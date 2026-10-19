@@ -1,0 +1,80 @@
+{
+    "title": "Basic Astronomy",
+    "questions": [
+        {
+            "questionText": "Which planet is known as the Red Planet?",
+            "choices": ["Venus", "Earth", "Jupiter", "Mars", "Mercury"],
+            "answerIndex": 3
+        },
+        {
+            "questionText": "What is the name of our galaxy?",
+            "choices": ["Sombrero", "Milky Way", "Andromeda", "Whirlpool"],
+            "answerIndex": 1
+        },
+        {
+            "questionText": "Which phase of the Moon occurs when Earth is between the Sun and the Moon?",
+            "choices": [
+                "New Moon",
+                "Last Quarter",
+                "Full Moon",
+                "First Quarter"
+            ],
+            "answerIndex": 2
+        },
+        {
+            "questionText": "Which planet has the most extensive ring system?",
+            "choices": ["Uranus", "Saturn", "Neptune", "Jupiter"],
+            "answerIndex": 1
+        },
+        {
+            "questionText": "A light-year is a measure of ...",
+            "choices": ["Time", "Brightness", "Distance"],
+            "answerIndex": 2
+        },
+        {
+            "questionText": "Which spacecraft carried the Golden Record into interstellar space?",
+            "choices": ["New Horizons", "Cassini", "Pioneer 10", "Voyager 1"],
+            "answerIndex": 3
+        },
+        {
+            "questionText": "Which star is at the centre of our solar system?",
+            "choices": ["Betelgeuse", "Sun", "Sirius"],
+            "answerIndex": 1
+        },
+        {
+            "questionText": "Which planet is closest to the Sun?",
+            "choices": ["Mercury", "Earth", "Venus", "Mars"],
+            "answerIndex": 0
+        },
+        {
+            "questionText": "Which planet is tilted on its side, causing extreme seasons?",
+            "choices": ["Uranus", "Neptune", "Saturn"],
+            "answerIndex": 0
+        },
+        {
+            "questionText": "What type of galaxy is the Milky Way classified as?",
+            "choices": ["Irregular", "Spiral", "Elliptical"],
+            "answerIndex": 1
+        },
+        {
+            "questionText": "Which famous comet passes Earth roughly every 76 years?",
+            "choices": [
+                "Comet Encke",
+                "Halley's Comet",
+                "Shoemaker-Levy 9",
+                "Hale-Bopp"
+            ],
+            "answerIndex": 1
+        },
+        {
+            "questionText": "What is the approximate age of the universe?",
+            "choices": [
+                "100 million years",
+                "2 trillion years",
+                "13.8 billion years",
+                "4.5 billion years"
+            ],
+            "answerIndex": 2
+        }
+    ]
+}

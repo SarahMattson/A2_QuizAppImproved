@@ -1,0 +1,22 @@
+@page
+@using A2_QuizAppImproved.Models
+@model StartModel
+
+<body>
+    <h1>Please select a quiz from the dropdown menu!</h1>
+    
+<form method="post">
+    <select asp-for="ChosenQuizID">
+        <option>Select a quiz from the dropdown: </option>
+        @foreach (var quiz in Model.Quizzes)
+            {
+                string quizId = quiz.Key;
+                var quizzy = quiz.Value;
+
+                <option value="@quiz.Key">@quiz.Value.DisplayName</option>
+            }
+        </select>
+        <button type="submit">Submit</button>
+</form>
+</body>
+
